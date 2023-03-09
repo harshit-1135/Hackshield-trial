@@ -90,7 +90,6 @@ nav {
   /* display: flex;
   flex-direction: column;
   align-items: center; */
-  padding-left: 1em;
 }
 
 p{
@@ -106,7 +105,7 @@ p{
   border-style:hidden;
   color: white;
   margin-top: 18em;
-  margin-left: 1em;
+  
   float: right;
 
 
@@ -146,7 +145,7 @@ background-size: 90% 100%;
 #ProblemIdentification{
 background: url("../images/Problem\ Identification-2.png");
 height: 12em;
-  padding: 1em;
+  padding: 2em;
   text-align: center;
 width: 70%;
 background-size: 100% 100%;
@@ -156,7 +155,7 @@ background-size: 100% 100%;
 background: url("../images/Untitled\ design.gif");
 height: 12em;
 margin-top: 3em;
-  padding: 1em;
+  padding: 2em;
   text-align: center;
 width: 70%;
 background-size: 100% 100%;
@@ -215,18 +214,18 @@ background-size: 100% 100%;
     color: #140643;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin-left: 1em;
+    margin-left: 2em;
   }
   #MoreInfo{
-    padding-left: 1.2em;
+    padding-left: 2em;
   }
   #ProblemIdentification{
-    height: 7em;
-    width: 7em;
+    height: 9em;
+    width: 9em;
   }
   #teamFormation{
-    height: 7em;
-    width: 7em;
+    height: 9em;
+    width: 9em;
   }
 }
 @media (max-width: 650px) {
@@ -264,6 +263,7 @@ background-size: 100% 100%;
   border-style:hidden;
   color: white;
   margin-top: 18em;
+  
   justify-content: center;
 
 
@@ -282,7 +282,7 @@ background-size: 100% 100%;
   #MoreInfo {
     font-size: 1em;
   }
-  #stages {
+  #stages h1{
     font-size: 1em;
   }
 }
