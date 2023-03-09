@@ -15,7 +15,7 @@ a{
   @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Poppins&family=Shantell+Sans&display=swap');
 
 #header{
-    background: url("/images/Untitled\ design-2.gif") center no-repeat;
+    background: url("../images/Untitled\ design-2.gif") center no-repeat;
     width: 100%;
 height: 675px;
     color: white;
@@ -119,7 +119,7 @@ font-size: 2em;
 text-align: left;
 margin-top: 1.5em;
 padding-left: 1em;
-background: url("/images/13-\ 23\ March\ REGISTRATION.png");
+background: url("../images/13-\ 23\ March\ REGISTRATION.png");
 height: 20em;
 width: 100%;
 z-index: -1;
@@ -151,7 +151,7 @@ background-size: 100% 100%;
 
 }
 #teamFormation{
-  background: url("/images/Untitled\ design.gif");
+  background: url("../images/Untitled\ design.gif");
   height: 12em;
   margin-top: 3em;
     padding: 1em;
@@ -217,7 +217,7 @@ background-size: 100% 100%;
   }
   @media (max-width: 650px) {
     #header{
-      background: url("/images/HACKSHILED\ CU.gif") center no-repeat;
+      background: url("../images/HACKSHILED\ CU.gif") center no-repeat;
       width: 100%;
 height: 675px;
     color: white;
@@ -225,7 +225,7 @@ height: 675px;
     background-size: 100% 100%;
     }
     #stages{
-      background: url("/images/HACKSHILED\ CU.png");
+      background: url("../images/HACKSHILED\ CU.png");
 height: 20em;
 width: 100%;
 z-index: -1;
