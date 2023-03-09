@@ -115,15 +115,17 @@ p{
 
 #stages{
 color:#140643;
+
 font-size: 2em;
-text-align: left;
+
 margin-top: 1.5em;
-padding-left: 1em;
-background: url("../images/13-\ 23\ March\ REGISTRATION.png");
+
+padding-left: 2em;
+background: url("../images/13-\ 23\ March\ REGISTRATION.png") center no-repeat;
 height: 20em;
-width: 100%;
+width: 90%;
 z-index: -1;
-background-size: 100% 100%;
+background-size: 90% 100%;
 /* overflow-x: hidden; */
 }
 
@@ -146,7 +148,7 @@ background: url("../images/Problem\ Identification-2.png");
 height: 12em;
   padding: 1em;
   text-align: center;
-width: 80%;
+width: 70%;
 background-size: 100% 100%;
 
 }
@@ -156,11 +158,10 @@ height: 12em;
 margin-top: 3em;
   padding: 1em;
   text-align: center;
-width: 80%;
+width: 70%;
 background-size: 100% 100%;
 }
 #footer{
-  background-color: #140643;
   padding: 1em;
 }
 #footer img{
@@ -210,14 +211,22 @@ background-size: 100% 100%;
 
 
 @media (max-width: 500px) {
+  #Grid-container{
+    color: #140643;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 1em;
+  }
   #MoreInfo{
     padding-left: 1.2em;
   }
   #ProblemIdentification{
-    height: 8em;
+    height: 7em;
+    width: 7em;
   }
   #teamFormation{
-    height: 8em;
+    height: 7em;
+    width: 7em;
   }
 }
 @media (max-width: 650px) {
@@ -264,7 +273,16 @@ background-size: 100% 100%;
 }
 
 @media (max-width: 390px) {
+  #Grid-container{
+    color: #140643;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 5em;
+  }
   #MoreInfo {
+    font-size: 1em;
+  }
+  #stages {
     font-size: 1em;
   }
 }
